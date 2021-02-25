@@ -18,37 +18,33 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-style: normal;
-  font-weight: normal;
   font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
 }
 
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-html {
-  overflow-y: scroll;
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
 }
 
 blockquote, q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after,
+q:before, q:after {
   content: '';
   content: none;
-}
-
-input, textarea {
-  margin: 0;
-  padding: 0;
-}
-
-ol, ul {
-  list-style: none;
 }
 
 table {
@@ -56,17 +52,14 @@ table {
   border-spacing: 0;
 }
 
-caption, th {
-  text-align: left;
-}
-
-a:focus {
-  outline: none;
-}
-
 /* ========================================
    ここからが本題
 ========================================= */
+body {
+  font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+  color: #172145;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -81,5 +74,23 @@ header {
 h1, a {
   text-align: center;
   padding-top: 7px;
+}
+
+#main_wrapper {
+  width: auto;
+}
+
+#main_wrapper #title {
+  margin-top: 16px;
+  text-align: center;
+  background-color: red;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#main_wrapper #title span {
+  font-size: 23px;
+  border-bottom: 4px solid #FFFF00;
+  line-height: 34px;
 }
 /*# sourceMappingURL=main.css.map */
