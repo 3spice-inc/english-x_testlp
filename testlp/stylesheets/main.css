@@ -58,6 +58,7 @@ table {
 body {
   font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
   color: #172145;
+  text-align: center;
 }
 
 header {
@@ -72,7 +73,6 @@ header {
 }
 
 h1, a {
-  text-align: center;
   padding-top: 7px;
 }
 
@@ -80,17 +80,83 @@ h1, a {
   width: auto;
 }
 
-#main_wrapper #title {
+#main_wrapper #main_content {
+  background-color: #F7F7F7;
+}
+
+#main_wrapper #main_content #title {
   margin-top: 16px;
   text-align: center;
-  background-color: red;
   font-size: 19px;
   font-weight: bold;
 }
 
-#main_wrapper #title span {
+#main_wrapper #main_content #title span {
   font-size: 23px;
   border-bottom: 4px solid #FFFF00;
   line-height: 34px;
+}
+
+#main_wrapper #main_content #free_trial {
+  margin-top: 33px;
+}
+
+#main_wrapper #main_content #content_example {
+  margin-top: 31px;
+}
+
+#main_wrapper #main_content #content_example ul li {
+  padding: 10px;
+  background-color: white;
+  margin: 16px 19px 16px 20px;
+  border-radius: 4px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#main_wrapper #main_content #content_example ul li p {
+  line-height: 30px;
+}
+
+#main_wrapper #main_content #content_example ul li:last-child {
+  margin-bottom: 32px;
+}
+
+#main_wrapper #deviation p {
+  letter-spacing: 0.2em;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #172145;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+#main_wrapper #reason {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+#main_wrapper #reason .title {
+  font-size: 23px;
+  line-height: 34px;
+}
+
+#main_wrapper ul li {
+  margin: 20px 0px;
+}
+
+#main_wrapper .contents_title {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+#main_wrapper .discription {
+  font-size: 12px;
+  line-height: 9px;
+}
+
+#main_wrapper .discription:nth-child(3) {
+  line-height: 20px;
 }
 /*# sourceMappingURL=main.css.map */
