@@ -121,12 +121,12 @@ h1, a{
         }
     }
 
-
-    #banner{
-        // margin-top: -10px;
-    }
+    // #banner{
+    // }
 
     #deviation{
+        margin-left: 1px;
+
         p{
             letter-spacing: 0.2em;
             color: #fff;
@@ -166,13 +166,45 @@ h1, a{
             &:nth-child(3){
                 line-height: 20px;
             }
-
         }
 
-        // .discription{
-        //     line-height: 19px;
-        // }
+    #plan{
+        background-color: #F7F7F7;
+        .title{
+            padding-top: 8px;
+            padding-bottom: 9px;
+            margin-bottom: 9px;
+            background-color:$cmain;
+            color: #fff;
+            border-radius:7px 7px 0px 0px;
 
+        }
+        .table{
+            background-color: #fff;
+            margin: 8px 7px 8px 10px;
+            border-radius:3px;
+
+            table{
+                line-height: 20px;
+                margin: auto;
+                tbody{
+                    font-size: 12px;
+                    font-weight: 500;
+
+                    th{
+                    text-align: right;
+                    }
+                    td{
+                    padding-left: 10px;
+                    text-align: left;
+                    }
+                }
+            }
+        }
+
+
+
+    }
 }
 
 

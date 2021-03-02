@@ -112,6 +112,9 @@ h1, a {
 #main_wrapper #main_content #content_example ul li:last-child {
   margin-bottom: 32px;
 }
+#main_wrapper #deviation {
+  margin-left: 1px;
+}
 #main_wrapper #deviation p {
   letter-spacing: 0.2em;
   color: #fff;
@@ -142,4 +145,35 @@ h1, a {
 }
 #main_wrapper .discription:nth-child(3) {
   line-height: 20px;
+}
+#main_wrapper #plan {
+  background-color: #F7F7F7;
+}
+#main_wrapper #plan .title {
+  padding-top: 8px;
+  padding-bottom: 9px;
+  margin-bottom: 9px;
+  background-color: #172145;
+  color: #fff;
+  border-radius: 7px 7px 0px 0px;
+}
+#main_wrapper #plan .table {
+  background-color: #fff;
+  margin: 8px 7px 8px 10px;
+  border-radius: 3px;
+}
+#main_wrapper #plan .table table {
+  line-height: 20px;
+  margin: auto;
+}
+#main_wrapper #plan .table table tbody {
+  font-size: 12px;
+  font-weight: 500;
+}
+#main_wrapper #plan .table table tbody th {
+  text-align: right;
+}
+#main_wrapper #plan .table table tbody td {
+  padding-left: 10px;
+  text-align: left;
 }
